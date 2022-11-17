@@ -69,7 +69,7 @@ public class EgovConfigAppMapper {
         try {
             sqlSessionFactoryBean.setMapperLocations(
                     pathMatchingResourcePatternResolver
-                            .getResources("classpath:/egovframework/mapper/ieetu/**/*.xml"));
+                            .getResources("classpath:/egovframework/mapper/app/**/*.xml"));
         } catch (IOException e) {
             // TODO Exception 처리 필요
         }
